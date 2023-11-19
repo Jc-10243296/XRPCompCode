@@ -27,11 +27,11 @@ public class Intake extends SubsystemBase {
   }
 
   public void intake() {
-    mServo.setAngle(180);
+    mServo.setAngle(75 );
   }
 
   public void nointake() {
-    mServo.setAngle(90);
+    mServo.setAngle(0);
   }
 
   public void toggleIntake() {

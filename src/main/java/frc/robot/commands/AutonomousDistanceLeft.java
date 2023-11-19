@@ -18,7 +18,9 @@ public class AutonomousDistanceLeft extends SequentialCommandGroup {
   public AutonomousDistanceLeft(Drivetrain drivetrain) {
     addCommands(
       new DriveDistance(Constants.speed1, Constants.distance1, drivetrain),
-      new TurnDegrees(-0.5, -90, drivetrain),
+      new Wait(0.5),
+      new TurnTime(1, 0.6, drivetrain),
+      new Wait(0.5),
       new DriveDistance(Constants.speed2, Constants.distance2, drivetrain));
   }
 }

@@ -17,8 +17,8 @@ public final class Constants {
     public static final int kDriverControllerPort = 0;
   }
 
-  public static double speed1 = -0.5;
-  public static double speed2 = -0.5;
-  public static double distance1 = -0.5;
-  public static double distance2 = -0.5;
+  public static double speed1 = 1;
+  public static double speed2 = 1;
+  public static double distance1 = 24;
+  public static double distance2 = 24;
 }
